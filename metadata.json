@@ -1,0 +1,6 @@
+{
+  "name": "KhSearch ETest - Grade 12 National Exam Practice",
+  "description": "Complete KhSearch ETest platform for Cambodian High School Grade 12 (BacII) national exam preparation across Biology, History, Earth Science, Morality & Civics, Khmer Literature, Geography, and General Knowledge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

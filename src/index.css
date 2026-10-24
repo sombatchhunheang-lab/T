@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Noto Sans Khmer', 'Kantumruy Pro', 'Plus Jakarta Sans', sans-serif;
+    --font-sans: 'Kantumruy Pro', 'Noto Sans Khmer', 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF9F9;
+    color: #0F172A;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
